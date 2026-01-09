@@ -107,6 +107,10 @@ def get_history(db: Session = Depends(get_db)):
         ))
     return results
 
+@app.get("/")
+def read_root():
+    return {"status": "online", "message": "Wikipedia Quiz Generator API is running"}
+
 @app.get("/history/{quiz_id}", response_model=QuizDetailResponse)
 def get_quiz_detail(quiz_id: int, db: Session = Depends(get_db)):
     q = db.query(QuizRecord).filter(QuizRecord.id == quiz_id).first()

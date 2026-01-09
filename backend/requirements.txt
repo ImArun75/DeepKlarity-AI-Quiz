@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+asyncpg
+beautifulsoup4
+requests
+langchain
+langchain-google-genai
+pydantic
+python-dotenv
+gunicorn

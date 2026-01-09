@@ -64,21 +64,29 @@ Frontend will start at `http://localhost:5173`.
 - `GET /history/{id}`: Detail view
 
 ## Screenshots
-<img width="1896" height="948" alt="image" src="https://github.com/user-attachments/assets/dc6bdaff-dff9-429c-b0bb-90c184738692" />
-Landing Page
+
+### 1. Landing Page
+Users can enter any valid Wikipedia URL and choose to generate a quiz or view quiz history.
+
+![Landing Page](https://github.com/user-attachments/assets/dc6bdaff-dff9-429c-b0bb-90c184738692)
 
 ---
 
-<img width="1919" height="933" alt="image" src="https://github.com/user-attachments/assets/e97da75a-d9ec-4eb0-b3e7-99335df432a5" />
-Loading Quiz after generating
+### 2. Quiz Generation (Loading State)
+After submitting a URL, the app shows a loading state while Gemini processes the article and creates questions.
 
----
-<img width="474" height="885" alt="image" src="https://github.com/user-attachments/assets/ded58c9c-9c17-4fa0-9e5e-1d1f6e7cdc93" />
-Quiz with scoring
-
+![Loading Quiz](https://github.com/user-attachments/assets/e97da75a-d9ec-4eb0-b3e7-99335df432a5)
 
 ---
 
-<img width="1914" height="943" alt="image" src="https://github.com/user-attachments/assets/cfac20aa-adf6-4206-81b4-e0d52741a02f" />
-Tab-2 History
+### 3. Quiz with Scoring
+Users can answer questions, submit, and immediately see their score with correct/incorrect answer indicators.
 
+![Quiz with Scoring](https://github.com/user-attachments/assets/ded58c9c-9c17-4fa0-9e5e-1d1f6e7cdc93)
+
+---
+
+### 4. Quiz History
+All previously generated quizzes are listed in a separate History tab, allowing users to reopen and retake old quizzes.
+
+![History Tab](https://github.com/user-attachments/assets/cfac20aa-adf6-4206-81b4-e0d52741a02f)

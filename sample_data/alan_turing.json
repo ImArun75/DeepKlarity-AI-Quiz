@@ -1,0 +1,100 @@
+{
+    "id": 1,
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "title": "Alan Turing",
+    "summary": "Alan Turing was a British mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science and artificial intelligence.",
+    "key_entities": {
+        "people": [
+            "Alan Turing",
+            "Alonzo Church",
+            "Winston Churchill"
+        ],
+        "organizations": [
+            "Government Code and Cypher School",
+            "University of Manchester",
+            "National Physical Laboratory"
+        ],
+        "locations": [
+            "Bletchley Park",
+            "United Kingdom",
+            "Wilmslow"
+        ]
+    },
+    "sections": [
+        "Early life and education",
+        "Career and research",
+        "Cryptanalysis",
+        "Early computers and the Turing test",
+        "Personal life",
+        "Death and inquest",
+        "Legacy"
+    ],
+    "quiz": [
+        {
+            "question": "What machine is Alan Turing credited with conceptualizing that serves as a model for general-purpose computers?",
+            "options": [
+                "The Analytical Engine",
+                "The Turing Machine",
+                "The Enigma Machine",
+                "The Difference Engine"
+            ],
+            "answer": "The Turing Machine",
+            "difficulty": "easy",
+            "explanation": "Turing provided a formalisation of the concepts of algorithm and computation with the Turing machine."
+        },
+        {
+            "question": "Where did Turing work during the Second World War?",
+            "options": [
+                "Pentagon",
+                "Bletchley Park",
+                "White House",
+                "Cambridge University"
+            ],
+            "answer": "Bletchley Park",
+            "difficulty": "easy",
+            "explanation": "During the Second World War, Turing worked for the Government Code and Cypher School (GC&CS) at Bletchley Park."
+        },
+        {
+            "question": "Which German cipher machine did Turing help decipher?",
+            "options": [
+                "Lorenz",
+                "Enigma",
+                "Purple",
+                "Geheimschreiber"
+            ],
+            "answer": "Enigma",
+            "difficulty": "medium",
+            "explanation": "He devised a number of techniques for speeding the breaking of German ciphers, including improvements to the pre-war Polish bombe method and an electromechanical machine that could find settings for the Enigma machine."
+        },
+        {
+            "question": "What specific test did Turing propose to assess a machine's ability to exhibit intelligent behavior?",
+            "options": [
+                "The Intelligence Quotient Test",
+                "The Turing Test",
+                "The Imitation Game",
+                "The Stanford-Binet Test"
+            ],
+            "answer": "The Turing Test",
+            "difficulty": "medium",
+            "explanation": "He addressed the problem of artificial intelligence, and proposed an experiment that became known as the Turing test."
+        },
+        {
+            "question": "What was the cause of Alan Turing's death as determined by the inquest?",
+            "options": [
+                "Natural causes",
+                "Car accident",
+                "Cyanide poisoning",
+                "Heart attack"
+            ],
+            "answer": "Cyanide poisoning",
+            "difficulty": "hard",
+            "explanation": "An inquest determined his death as suicide by cyanide poisoning."
+        }
+    ],
+    "related_topics": [
+        "Turing completeness",
+        "History of computing",
+        "Artificial intelligence",
+        "Cryptanalysis of the Enigma"
+    ]
+}

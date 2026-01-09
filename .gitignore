@@ -1,0 +1,26 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+backend/__pycache__/
+backend/venv/
+backend/.env
+
+# Node / Frontend
+node_modules/
+/frontend/node_modules/
+dist/
+build/
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Deployment / artifacts
+*.zip
+wiki_quiz_app_submission.zip
